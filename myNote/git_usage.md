@@ -5,3 +5,8 @@ ssh-keygen => 存取金鑰
 - > git add -A
 - > git commit -m"add signup.html"
 - > git push
+
+JAVA檔測試：
+- > deno
+- > Ctrl C 兩次
+- > deno run 檔名.js
