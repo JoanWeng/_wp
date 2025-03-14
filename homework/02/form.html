@@ -1,2 +1,131 @@
-１２３４
-1234
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>註冊表單</title>
+    <style>
+
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f9;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+
+        .form-container {
+            background-color: #ffffff;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            width: 400px;
+            max-width: 100%;
+        }
+
+        h1 {
+            text-align: center;
+            color: #333333;
+        }
+
+        label {
+            font-size: 14px;
+            font-weight: bold;
+            color: #333333;
+            margin-bottom: 8px;
+            display: block;
+        }
+
+        input[type="text"],
+        input[type="email"],
+        input[type="date"],
+        input[type="color"],
+        input[type="radio"],
+        input[type="checkbox"] {
+            width: 100%;
+            padding: 10px;
+            margin: 8px 0;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            box-sizing: border-box;
+        }
+
+        input[type="radio"],
+        input[type="checkbox"] {
+            width: auto;
+            margin-right: 10px;
+        }
+
+        input[type="text"] {
+            width: 100%;
+        }
+
+        input[type="color"] {
+            width: 50px;
+            height: 30px;
+        }
+
+        button {
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            padding: 12px 20px;
+            font-size: 16px;
+            cursor: pointer;
+            width: 100%;
+            border-radius: 5px;
+            margin-top: 10px;
+        }
+
+        button:hover {
+            background-color: #45a049;
+        }
+
+        .checkbox-group,
+        .radio-group {
+            margin-bottom: 20px;
+        }
+
+        .checkbox-group label,
+        .radio-group label {
+            display: inline-block;
+            margin-right: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="form-container">
+        <h1>註冊表單</h1>
+        <form action="#" method="POST">
+            
+            <label for="name">姓名：</label>
+            <input type="text" id="name" name="name" required><br>
+
+            <div class="radio-group">
+                <label>性別：</label>
+                <input type="radio" id="male" name="gender" value="男" required>
+                <label for="male">男</label>
+                <input type="radio" id="female" name="gender" value="女">
+                <label for="female">女</label>
+            </div>
+
+            <label for="birthday">生日：</label>
+            <input type="date" id="birthday" name="birthday" required><br>
+
+            <label for="interest">興趣：</label>
+            <input type="text" id="interest" name="interest" placeholder="請填寫您的興趣" required><br>
+
+            <label for="email">電子郵件：</label>
+            <input type="email" id="email" name="email" required><br>
+
+            <label for="color">喜好顏色：</label>
+            <input type="color" id="color" name="color" value="#ff0000"><br>
+
+            <button type="submit">提交</button>
+        </form>
+    </div>
+</body>
+</html>
