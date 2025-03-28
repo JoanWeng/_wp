@@ -10,3 +10,10 @@ JAVA檔測試：
 - > deno
 - > Ctrl C 兩次
 - > deno run 檔名.js
+
+deno run -A 檔案名 => -A為開啟
+ping 網址 => 從DNS抓網址位置
+
+
+ls => 列出所有檔案和路徑
+mkdir 資料夾名稱 => 創建資料夾
