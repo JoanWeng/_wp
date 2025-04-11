@@ -167,11 +167,11 @@ app.use((ctx) => {
   } 
     else if (pathname == '/name')
     {
-      ctx.response.body = page(`<p style="font-size:100px;">翁喬恩</p>`)
+      ctx.response.body = page(`<p style="font-size:100px; font-family:Heiti TC;">翁喬恩</p>`)
     }
     else if (pathname == '/age')
     {
-      ctx.response.body = page('18')
+      ctx.response.body = page(`<p style="font-size:100px; font-family:Menlo">18</p>`)
     }
     else if (pathname == '/gender')
     {
