@@ -109,7 +109,7 @@ function create() {
 
   cursors = this.input.keyboard.createCursorKeys();
   dashKey = this.input.keyboard.addKey(Phaser.Input.Keyboard.KeyCodes.L);
-
+  attackKey = this.input.keyboard.addKey(Phaser.Input.Keyboard.KeyCodes.J);
 }
 
 function update() {
@@ -182,7 +182,7 @@ function update() {
     }, dashCooldown);
   }
 
-  if (Phaser.Input.Keyboard.JustDown(dashKey)) {
+  if (Phaser.Input.Keyboard.JustDown(attackKey)) {
     isAttacking = true;
     attackBox.setVisible(true);
   
@@ -209,8 +209,6 @@ function update() {
       attackBox.setVisible(false);
     }, 200);
   }
-  
-  console.log("Attack triggered at", attackBox.x, attackBox.y);
 
   // 每幀更新 bossCollider 跟隨 bossBody
   bossCollider.setPosition(bossBody.x, bossBody.y);
