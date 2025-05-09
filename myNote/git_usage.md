@@ -22,4 +22,6 @@ pip install "fastapi[standard]" => 裝Python環境
 
 Python檔測試：
 - > 有伺服器－fastapi dev 檔名.py
-- > python A1.py
+- > python 檔名.py
+
+curl -v -X POST -d "" => HTTP POST 請求
