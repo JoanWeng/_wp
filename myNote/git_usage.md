@@ -30,3 +30,7 @@ curl -v -X POST -d "" => HTTP POST 請求
 - > 檔案測試指令後加上 －－port 1024~65535f區間(最好為3000起跳)
 
 命令列參數 sys
+
+run.sh檔執行：
+- > chmod +x run.sh
+- > ./run.sh

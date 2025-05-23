@@ -8,10 +8,10 @@ import { entities, movement, controls, gameFlow } from '../gameState.js';
  */
 export function createPlayer(scene) {
   // 建立玩家精靈
-  entities.player = scene.physics.add.sprite(800, 2640, 'player');
+  entities.player = scene.physics.add.sprite(800, 2630, 'player');
   entities.player.setCollideWorldBounds(true);
   entities.player.health = 6;
-  entities.player.setDisplaySize(105, 330);
+  entities.player.setDisplaySize(100, 300);
   entities.player.body.setOffset(0, 0);
 
   // 可以在這裡添加玩家的動畫設定

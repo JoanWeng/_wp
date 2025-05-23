@@ -150,7 +150,7 @@ export default class MainScene extends Phaser.Scene {
 
       // 延遲傳送與攝影機平移，讓引擎有時間處理
       this.time.delayedCall(0, () => {
-        player.setPosition(5000, 2640);
+        player.setPosition(5000, 2630);
         player.body.updateFromGameObject();
 
         this.cameras.main.pan(player.x + 1000, player.y, 800, 'Power2');

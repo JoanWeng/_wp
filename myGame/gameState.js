@@ -29,7 +29,7 @@ export const entities = {
     jump: {
       force: -350,
       base: -350,
-      max: -540,
+      max: -450,
       accel: 3,
       isActive: false
     },
