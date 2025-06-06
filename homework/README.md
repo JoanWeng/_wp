@@ -45,8 +45,7 @@
 </ul>
 
 <ul>
-<h2>習題８
-</h2>
+<h2>習題８</h2>
 <li>使用chatgpt完成；同上，無法附上網址</li>
 </ul>
 
@@ -56,6 +55,11 @@
 <li>參考教授的教材，並使用claude.ai完成</li>
 <li>教材：<a href="https://github.com/ccc113b/html2server/tree/master/02-%E5%BE%8C%E7%AB%AFserver/py/fastapi/04-session/02-blogSignup">教材檔案</a></li>
 <li>Claude.ai：<a href="https://claude.ai/share/6f2b816b-a48c-4ddf-85ed-429110df3a24">Blog Post Deletion Feature</a></li>
+</ul>
+
+<ul>
+<h2>小筆記</h2>
+<li>上課教授講過的東西，零零散散的記了一些</li>
 </ul>
 </body>
 </html>
