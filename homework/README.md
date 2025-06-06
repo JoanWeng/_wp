@@ -11,10 +11,6 @@
 <h2>習題2</h2>
 <li>參考w3school，並使用chatgpt完成；同上，無法附上網址</li>
 <li>w3school的表單：<a href="https://www.w3schools.com/html/html_forms.asp">HTML Forms</a></li>
-<h3>原理：</h3>
-<li>這是一個簡單的HTML網頁，透過清單列出個人興趣與作品連結。使用基本的HTML標籤，展示靜態個人資訊。</li>
-<h3>使用方法：</h3>
-<ls>直接以瀏覽器打開即可查看翁喬恩的個人資料與 YouTube 作品連結。可作為個人履歷或作品集介紹的靜態頁面使用。</ls>
 </ul>
 
 <ul>
@@ -28,6 +24,18 @@
 <h2>習題４</h2>
 <li>A1、A2和A4~A7習題是使用chatgpt完成；同上，無法附上網址</li>
 <li>A4參考A1、A2後，自己寫的</li>
+</ul>
+
+<ul>
+<h2>習題５</h2>
+<li>使用chatgpt完成；同上，無法附上網址</li>
+<li>我重新設定了字體</li>
+</ul>
+
+<ul>
+<h2>習題６</h2>
+<li>參考教授提供的教材</li>
+<li>教材：<a href="https://chatgpt.com/share/67f88045-3e6c-8012-8c26-ed74caab5d09">Chatgpt</a>、<a href="https://github.com/ccc113b/html2server/tree/master/02-%E5%BE%8C%E7%AB%AFserver/js/deno/04-sqlite/01-sqliteHello">教材檔案</a></li>
 </ul>
 
 </body>
