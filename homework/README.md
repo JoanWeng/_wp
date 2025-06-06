@@ -44,5 +44,18 @@
 <li>教材：<a href="https://github.com/ccc113b/html2server/tree/master/02-%E5%BE%8C%E7%AB%AFserver/js/deno/03-formBlog/blog/%E5%8A%A0%E4%B8%8A%E6%99%82%E9%96%93">教材檔案_formBlog</a>、<a href="https://github.com/ccc113b/html2server/tree/master/02-%E5%BE%8C%E7%AB%AFserver/js/deno/04-sqlite/04-blog">教材檔案_sqliteBlog</a></li>
 </ul>
 
+<ul>
+<h2>習題８
+</h2>
+<li>使用chatgpt完成；同上，無法附上網址</li>
+</ul>
+
+<ul>
+<h2>習題９
+</h2>
+<li>參考教授的教材，並使用claude.ai完成</li>
+<li>教材：<a href="https://github.com/ccc113b/html2server/tree/master/02-%E5%BE%8C%E7%AB%AFserver/py/fastapi/04-session/02-blogSignup">教材檔案</a></li>
+<li>Claude.ai：<a href="https://claude.ai/share/6f2b816b-a48c-4ddf-85ed-429110df3a24">Blog Post Deletion Feature</a></li>
+</ul>
 </body>
 </html>
