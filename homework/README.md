@@ -12,7 +12,7 @@
 <li>參考w3school，並使用chatgpt完成；同上，無法附上網址</li>
 <li>w3school的表單：<a href="https://www.w3schools.com/html/html_forms.asp">HTML Forms</a></li>
 <h3>原理：</h3>
-<li>這是一個簡單的 HTML 網頁，透過 <ul> 清單列出個人興趣與作品連結。使用基本的 HTML 標籤如 <h1>、<ul>、<li> 與 <a>，展示靜態個人資訊。</li>
+<li>這是一個簡單的HTML網頁，透過清單列出個人興趣與作品連結。使用基本的HTML標籤，展示靜態個人資訊。</li>
 <h3>使用方法：</h3>
 <ls>直接以瀏覽器打開即可查看翁喬恩的個人資料與 YouTube 作品連結。可作為個人履歷或作品集介紹的靜態頁面使用。</ls>
 </ul>
