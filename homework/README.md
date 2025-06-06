@@ -4,7 +4,7 @@
 <h1>期末作業說明</h1>
 <ul>
 <h2>習題１</h2>
-<li>參考了教授一開始給我們的自我介紹html</li>
+<li>參考了教授一開始的自我介紹html</li>
 </ul>
 
 <ul>
@@ -35,7 +35,13 @@
 <ul>
 <h2>習題６</h2>
 <li>參考教授提供的教材</li>
-<li>教材：<a href="https://chatgpt.com/share/67f88045-3e6c-8012-8c26-ed74caab5d09">Chatgpt</a>、<a href="https://github.com/ccc113b/html2server/tree/master/02-%E5%BE%8C%E7%AB%AFserver/js/deno/04-sqlite/01-sqliteHello">教材檔案</a></li>
+<li>教材：<a href="https://chatgpt.com/share/67f88045-3e6c-8012-8c26-ed74caab5d09">Chatgpt</a>、<a href="https://github.com/ccc113b/html2server/tree/master/02-%E5%BE%8C%E7%AB%AFserver/js/deno/04-sqlite/01-sqliteHello">教材檔案_sqlite</a></li>
+</ul>
+
+<ul>
+<h2>習題７</h2>
+<li>參考教授提供的教材</li>
+<li>教材：<a href="https://github.com/ccc113b/html2server/tree/master/02-%E5%BE%8C%E7%AB%AFserver/js/deno/03-formBlog/blog/%E5%8A%A0%E4%B8%8A%E6%99%82%E9%96%93">教材檔案_formBlog</a>、<a href="https://github.com/ccc113b/html2server/tree/master/02-%E5%BE%8C%E7%AB%AFserver/js/deno/04-sqlite/04-blog">教材檔案_sqliteBlog</a></li>
 </ul>
 
 </body>
