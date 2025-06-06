@@ -3,4 +3,16 @@
 {% block content %}
     <h1>{{ post.title }} -- by {{ post.username }}</h1>
     <p>{{ post.body }}</p>
+    
+    <p>
+        <a href="/">← Back to Posts</a>
+        <!-- 只有登入且為文章作者才顯示刪除按鍵 -->
+        {% if user and user.username == post.username %}
+            | 
+            <form action="/post/{{ post.id }}/delete" method="post" style="display: inline;" 
+                  onsubmit="return confirm('Are you sure you want to delete this post?')">
+                <input type="submit" value="Delete Post" style="background-color: #ff4444; color: white; border: none; padding: 8px 15px; cursor: pointer; border-radius: 3px; margin-left: 10px;">
+            </form>
+        {% endif %}
+    </p>
 {% endblock %}

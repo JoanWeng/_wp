@@ -141,9 +141,11 @@ async def show_post(request: Request, post_id: int, db: Session = Depends(get_db
     post = db.query(Post).filter(Post.id == post_id).first()
     if not post:
         raise HTTPException(status_code=404, detail="Post not found")
+    
+    user = request.session.get("user")
     return templates.TemplateResponse(
         "show_post.html",
-        {"request": request, "post": post}
+        {"request": request, "post": post, "user": user}
     )
 
 @app.post("/post")
@@ -160,4 +162,31 @@ async def create_post(
     new_post = Post(username=user["username"], title=title, body=body)
     db.add(new_post)
     db.commit()
+    return RedirectResponse(url="/", status_code=status.HTTP_303_SEE_OTHER)
+
+# 新增：刪除貼文的路由
+@app.post("/post/{post_id}/delete")
+async def delete_post(
+    request: Request,
+    post_id: int,
+    db: Session = Depends(get_db)
+):
+    # 檢查用戶是否已登入
+    user = request.session.get("user")
+    if not user:
+        raise HTTPException(status_code=401, detail="Not authenticated")
+    
+    # 查找要刪除的貼文
+    post = db.query(Post).filter(Post.id == post_id).first()
+    if not post:
+        raise HTTPException(status_code=404, detail="Post not found")
+    
+    # 檢查是否為貼文作者才能刪除
+    if post.username != user["username"]:
+        raise HTTPException(status_code=403, detail="You can only delete your own posts")
+    
+    # 刪除貼文
+    db.delete(post)
+    db.commit()
+    
     return RedirectResponse(url="/", status_code=status.HTTP_303_SEE_OTHER)
