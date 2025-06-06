@@ -1,11 +1,10 @@
 <!DOCTYPE html>
 <html>
 <body>
-
-<h1>翁喬恩的個人檔案</h1>
+<h1>期末作業說明</h1>
 <ul>
-<li>興趣:畫圖</li>
-<li>作品連結：<a href="https://www.youtube.com/@joanouob">Youtube</a></li>
+<h2>習題１</h2>
+<li>參考了教授一開始給我們的html</li>
 </ul>
 
 </body>
